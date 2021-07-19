@@ -71,7 +71,12 @@ Complete the following steps to set up NativeScript on your Windows development 
 
     - Restart the command prompt.
 
-9.  To check if your system is configured properly, run the following command.
+9. Install Android or iOS platform components 
+
+<pre class="add-copy-button"><code class="language-terminal">npm i @nativescript/android --save-dev
+</code></pre>
+
+10.  To check if your system is configured properly, run the following command.
 
     <pre class="add-copy-button"><code class="language-terminal">tns doctor
     </code></pre>
